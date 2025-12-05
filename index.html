@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ASL</title>
+    <title>Seeing conversation</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -21,9 +21,17 @@
                         <div class="output-label">Recognized Text:</div>
                         <div class="output-text" id="recognizedText">_</div>
                     </div>
+                    <div class="controls-panel">
+                        <button id="startBtn" class="primary">Start Camera</button>
+                        <button id="addLetterBtn" disabled>Add Detected Letter</button>
+                        <button id="spaceBtn">Add Space</button>
+                        <button id="backspaceBtn">Backspace</button>
+                        <button id="clearTextBtn">Clear Text</button>
+                        <button id="copyBtn">Copy to Clipboard</button>
+                    </div>
                     <div class="accuracy-badge">
                         <div style="font-size: 0.8em; margin-bottom: 3px;">System Accuracy</div>
-                        <div class="accuracy-value">98.98%</div>
+                        <div class="accuracy-value">88.28%</div>
                         <div style="font-size: 0.7em; color: #999; margin-top: 3px;">Based on Nature Research</div>
                     </div>
                 </div>
@@ -59,14 +67,7 @@
                     </div>
                 </div>
 
-                <div class="controls-panel">
-                    <button id="startBtn" class="primary">Start Camera</button>
-                    <button id="addLetterBtn" disabled>Add Detected Letter</button>
-                    <button id="spaceBtn">Add Space</button>
-                    <button id="backspaceBtn">Backspace</button>
-                    <button id="clearTextBtn">Clear Text</button>
-                    <button id="copyBtn">Copy to Clipboard</button>
-                </div>
+         
             </div>
 
             <!-- Center Panel -->
